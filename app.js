@@ -15,7 +15,7 @@ app.get('/about', (req, res) => {
   res.sendFile(__dirname + '/views/about.html');
 });
 
-// Start the server
+// Start server
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
